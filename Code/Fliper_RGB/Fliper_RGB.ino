@@ -29,7 +29,7 @@ FASTLED_USING_NAMESPACE
 #define NUM_LEDS    16
 #define HUE_OFFSET 90
 CRGB leds[NUM_LEDS];
-byte ledIndex[NUM_LEDS] = {15, 8, 7, 0, 14, 9, 6, 1, 13, 10, 5, 2, 12, 11, 4, 3};
+byte ledIndex[NUM_LEDS] = {15, 8, 7, 0, 14, 9, 6, 1, 13, 10, 5, 2, 12, 11, 4, 3}; // Color pallete of pull up & pull down when press the acrade buttons.
 
 #define BRIGHTNESS          96
 #define FRAMES_PER_SECOND  120
